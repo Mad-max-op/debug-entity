@@ -63,6 +63,10 @@
     width : 10vw;   
     border-radius : 10px;
     margin-left : 30%; 
+    font-family: "Hacked";
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .submit-btn:hover{
@@ -71,7 +75,9 @@
     transform: scale(1.1);
     transition: 300ms ease-out;
     cursor: crosshair;
+    font-family: "Hacked";
 }
+
 
 .signup-box{
     margin-top : 5vh;

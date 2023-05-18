@@ -16,3 +16,9 @@ function pass_fun(e)
         pass_box.type = "password"
     }
 }
+
+function login_fun()
+{
+    console.log("h")
+    window.location.href = "main/main.html"
+}
