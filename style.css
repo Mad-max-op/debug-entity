@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Hacked";
+    src : url(Hacked-KerX.ttf);
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    
+    overflow: hidden;
+    font-family: 'Hacked', 'Space Mono', monospace;
+}
+
+
+.body-flex{
+    display : flex;
+    height: 100vh;
+    width : 100vw;
+    justify-content: flex-start;
+    margin-top : 20vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size : 5em;
+    margin-bottom : 2vh;
+}
+
+.login-box{
+    display : flex;
+    flex-direction: column;
+    border : solid 2.5px #0C134F;
+    padding : 1.5em 1em;
+    border-radius : 10px;
+    width : 25vw;
+    height: 30vh;
+    justify-content: space-between;
+    font-size : 1.2em;
+}
+
+.login-box input{
+    font-size: .8em;
+    padding : .2em;
+    border-radius : 10px;
+    border-color: #0C134F;
+    font-family: Space Mono;
+}
+
+.submit-btn{
+    background-color: #5C469C;
+    font-size : 1.2em;
+    color : #D4ADFC;
+    width : 10vw;   
+    border-radius : 10px;
+    margin-left : 30%; 
+}
