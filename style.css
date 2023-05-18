@@ -17,7 +17,7 @@
     height: 100vh;
     width : 100vw;
     justify-content: flex-start;
-    margin-top : 20vh;
+    margin-top : 10vh;
     align-items: center;
     flex-direction: column;
 }
@@ -47,6 +47,15 @@
     font-family: Space Mono;
 }
 
+.password-div{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pass-eye{
+    height: 20px;
+    width : 20px;
+}
 .submit-btn{
     background-color: #5C469C;
     font-size : 1.2em;
@@ -54,4 +63,29 @@
     width : 10vw;   
     border-radius : 10px;
     margin-left : 30%; 
+}
+
+.submit-btn:hover{
+    background-color: #D4ADFC;
+    color : #5C469C;
+    transform: scale(1.1);
+    transition: 300ms ease-out;
+    cursor: crosshair;
+}
+
+.signup-box{
+    margin-top : 5vh;
+    border : solid 2px #0C134F;
+    padding : 1em;
+    width : 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp{
+    font-family: "Space Mono";
+}
+.temp a{
+    font-family: "Space Mono";
 }

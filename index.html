@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debug</title>
     <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" defer></script>
 
     <!-- font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,10 +19,16 @@
         <form class = "login-box">
             <label for = "username">Username</label>
             <input type = "text" id = "username" name = "username">
-            <label for = "password">Password</label>
+            <div class = "password-div">
+                <label for = "password">Password</label>
+                <img src = "assets/hide.png" alt = "image not found" class = "pass-eye" onclick = "pass_fun(this)">
+            </div>
             <input type = "password" id = "password" name = "password">
             <button type="submit" class = "submit-btn">Login</button>
         </form>
+        <div class = "signup-box">
+            <div class = "temp">New Debug? <a href = "#">Create an account</a>. </div>
+        </div>
     </div>
 </body>
 </html>
